@@ -1,10 +1,10 @@
-import logo from "./assets/logo-nlw.svg";
-import { NewNoteCard } from "./components/NewNoteCard";
-import { NoteCard } from "./components/NoteCard";
+import logo from './assets/logo-nlw.svg';
+import { NewNoteCard } from './components/NewNoteCard';
+import { NoteCard } from './components/NoteCard';
 
 const note = {
   date: new Date(),
-  content: "hello world",
+  content: 'hello world',
 };
 
 export function App() {
